@@ -33,7 +33,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Unlocking Tomorrow's Potential with Today's Code.
+            Unlocking Tomorrow&apos;s Potential with Today&apos;s Code.
           </p>
           <div>
             <Link

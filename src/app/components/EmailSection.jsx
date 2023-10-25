@@ -15,7 +15,7 @@ const EmailSection = () => {
         <h5 className="text-white text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
           Let&apos;s Connect
         </h5>
-        <div className="text-[#ADB7BE] mx-auto text-center smb-4 max-w-md  mb-4">
+        <div className="text-[#ADB7BE] mx-auto text-center smb-4 max-w-md mb-4">
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
