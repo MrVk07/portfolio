@@ -21,10 +21,10 @@ const EmailSection = () => {
           try my best to get back to you!
         </div>
         <div className="socials flex flex-row gap-2 justify-center">
-          <Link href="https://github.com/MrVk07">
+          <Link href="https://github.com/MrVk07" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="https://www.linkedin.com/in/vineet-karwa">
+          <Link href="https://www.linkedin.com/in/vineet-karwa" target="_blank">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
           <Link href="mailto:vineetkarwa123@gmail.com">

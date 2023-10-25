@@ -15,8 +15,8 @@ const projectsData = [
     id: 2,
     title: "Ecommerce Website",
     image: "/images/projects/2.png",
-    gitUrl: "https://github.com/MrVk07/EcommerceBackend",
-    previewUrl: "https://ecommerce-buyanything.netlify.app/",
+    gitUrl: "https://github.com/MrVk07/Ecommerce",
+    previewUrl: "https://ecommerce-buyanything.netlify.app",
   },
   {
     id: 3,
@@ -54,8 +54,7 @@ const ProjectsSection = () => {
             variants={cardVariants}
             initial="initial"
             animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
-          >
+            transition={{ duration: 0.3, delay: index * 0.4 }}>
             <ProjectCard
               key={project.id}
               title={project.title}
