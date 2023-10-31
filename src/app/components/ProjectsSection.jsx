@@ -9,33 +9,27 @@ const projectsData = [
     title: "Connect Threads",
     image: "/images/projects/1.png",
     gitUrl: "https://github.com/MrVk07/ConnectThreads",
-    previewUrl: "https://connect-threads.vercel.app",
+    previewUrl: process.env.NEXT_PUBLIC_CONNECT_THREADS_URL,
   },
   {
     id: 2,
     title: "Ecommerce Website",
     image: "/images/projects/2.png",
     gitUrl: "https://github.com/MrVk07/Ecommerce",
-    previewUrl: "https://ecommerce-buyanything.netlify.app",
+    previewUrl: process.env.NEXT_PUBLIC_ECOMMERCE_URL,
   },
   {
     id: 3,
     title: "Commodity Pricing",
     image: "/images/projects/3.png",
     gitUrl: "https://github.com/MrVk07/CommodityPricing",
-    previewUrl: "https://commoditypricing.netlify.app",
+    previewUrl: process.env.NEXT_PUBLIC_COMMODITY_PRICING_URL,
   },
 ];
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
-  const handleTagChange = (newTag) => {
-    setTag(newTag);
-  };
-
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
     animate: { y: 0, opacity: 1 },
